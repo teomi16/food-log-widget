@@ -6,13 +6,13 @@ Ethan clicks. Ethan logs. No distractions.
 
 ---
 
-## 💡 Features
+## 🍳 Features
 
-- 🍳 Log breakfast, lunch, dinner, or snacks with one click
-- 🧾 Type what you ate and check off common food triggers (e.g., dairy, sugar)
-- ⚠️ Track how you felt afterward with symptom checklists (e.g., fatigue, brain fog)
-- 📁 Export each entry as a **timestamped CSV** with all the data
-- 🧃 Works fully offline — lightweight and private
+- Log breakfast, lunch, dinner, or snacks with one click
+- Type what you ate and check off common food triggers (e.g., dairy, sugar)
+- Track how you felt afterward with symptom checklists (e.g., fatigue, brain fog)
+- Export each entry as a **timestamped CSV** with all the data
+- Works fully offline — lightweight and private
 
 ## 💡 Technologies Used
 - Tauri (for native desktop shell)
