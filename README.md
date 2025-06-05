@@ -4,6 +4,12 @@ A minimalist, pixel-art desktop food logging widget built with **Tauri** and **H
 
 Ethan clicks. Ethan logs. No distractions.
 
+## 🎥 Demo
+
+<p align="center">
+  <img src="demo.gif" alt="Demo of food log widget" width="500"/>
+</p>
+
 ---
 
 ## 🍳 Features
