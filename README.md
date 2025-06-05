@@ -7,7 +7,7 @@ Ethan clicks. Ethan logs. No distractions.
 ## 🎥 Demo
 
 <p align="center">
-  <img src="demo.gif" alt="Demo of food log widget" width="500"/>
+  <img src="src/demo.gif" alt="Demo of food log widget" width="500"/>
 </p>
 
 ---
