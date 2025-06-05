@@ -24,11 +24,10 @@ Ethan clicks. Ethan logs. No distractions.
 This widget was made to help Ethan develop food awareness and symptom tracking in a super low-effort way. Hopefully, this helps Ethan get to the bottom of his gut issues.
 
 ## 📸 Screenshots
-<img src="src/frame1.png" alt="Ethan Screenshot" width="400"/>
-![frame2](src/frame2.png)
-![frame3](src/frame3.png)
-![frame4](src/frame4.png)
-
+<img src="src/frame1.png" alt="Ethan Screenshot" width="300"/>
+<img src="src/frame1.png" alt="Ethan Screenshot" width="300"/>
+<img src="src/frame1.png" alt="Ethan Screenshot" width="300"/>
+<img src="src/frame1.png" alt="Ethan Screenshot" width="300"/>
 
 ---
 ## 📦 Installation & Usage
