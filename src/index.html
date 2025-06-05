@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ethan Widget</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="frame-1" class="frame active">
+    <div class="card">
+      <div class="exit-btn">X</div>
+      <p class="datetime" id="datetime"></p>
+      <img src="/images/ethan.png" alt="Ethan" class="ethan" id="ethan-img"/>
+      <p class="name">Ethan J.</p>
+    </div>
+  </div>
+
+  <div id="frame-2" class="frame hidden">
+    <div class="card">
+      <button class="meal-btn" type="button">Breakfast</button>
+      <button class="meal-btn" type="button">Lunch</button>
+      <button class="meal-btn" type="button">Dinner</button>
+      <button class="meal-btn" type="button">Snacks</button>
+      <img src="/images/back.png" alt="Back" class="back-btn" id="back-to-frame-1" />
+      <div class="exit-btn">X</div>
+    </div>
+  </div>
+
+  <div id="frame-3" class="frame hidden">
+    <div class="card">
+      <label class="section-title">What did you eat?</label>
+      <textarea id="feeling-text-3"></textarea>
+      <form id="allergen-form-1">
+        <div class="checkbox-row">
+          <label><input type="checkbox" name="allergen1" value="Dairy"> Dairy</label>
+          <label><input type="checkbox" name="allergen1" value="Processed"> Processed</label>
+          <label><input type="checkbox" name="allergen1" value="Lack of protein"> Lack of protein</label>
+        </div>
+        <div class="checkbox-row">
+          <label><input type="checkbox" name="allergen1" value="Caffeine"> Caffeine</label>
+          <label><input type="checkbox" name="allergen1" value="Sugar"> Sugar</label>
+          <label><input type="checkbox" name="allergen1" value="Alcohol"> Alcohol</label>
+        </div>
+        <div class="checkbox-row">
+          <label><input type="checkbox" name="allergen1" value="Lack of vegetables or fiber"> Lack of vegetables or fiber</label>
+        </div>
+      </form>
+      <img src="/images/back.png" alt="Back" class="back-btn" id="back-to-frame-2" />
+      <div class="exit-btn">X</div>
+      <button class="log-btn" id="to-frame-4" type="button">Next</button>
+    </div>
+  </div>
+
+  <div id="frame-4" class="frame hidden">
+    <div class="card">
+      <label class="section-title">How did it make you feel?</label>
+      <textarea id="feeling-text-4"></textarea>
+      <form id="symptom-form-2">
+        <div class="checkbox-row">
+          <label><input type="checkbox" name="symptom2" value="Fatigue"> Fatigue</label>
+          <label><input type="checkbox" name="symptom2" value="Brain fog"> Brain fog</label>
+          <label><input type="checkbox" name="symptom2" value="Stomach issues"> Stomach issues</label>
+        </div>
+        <div class="checkbox-row">
+          <label><input type="checkbox" name="symptom2" value="Headache"> Headache</label>
+          <label><input type="checkbox" name="symptom2" value="Skin reactions"> Skin reactions</label>
+          <label><input type="checkbox" name="symptom2" value="Mood changes"> Mood changes</label>
+        </div>
+        <div class="checkbox-row">
+          <label><input type="checkbox" name="symptom2" value="Quick post-meal hunger"> Quick post-meal hunger</label>
+        </div>
+      </form>
+      <button class="log-btn" id="final-log" type="button">Log</button>
+      <img src="/images/back.png" alt="Back" class="back-btn" id="back-to-frame-3" />
+      <div class="exit-btn">X</div>
+    </div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>

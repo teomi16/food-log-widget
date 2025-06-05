@@ -1,0 +1,206 @@
+@font-face {
+  font-family: 'Minecraftia';
+  src: url('fonts/Minecraftia.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: 'Minecraftia', sans-serif;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.frame {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.frame.active,
+.frame:not(.hidden) {
+  display: flex;
+}
+
+.card {
+  position: relative;
+  background: #d5e0d8;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px #00000066;
+  width: 320px;
+  height: 400px;
+  text-align: center;
+  background-image: url('images/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#frame-1 .card {
+  background-image: url('images/background-frame1.png');
+}
+
+#frame-3 .card,
+#frame-4 .card {
+  background-image: none;
+  background-color: #d5e0d8;
+}
+
+.datetime {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  font-size: 10px;
+  text-align: left;
+}
+
+.ethan {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 240px;
+  height: auto;
+  image-rendering: pixelated;
+  cursor: pointer;
+}
+
+.name {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.meal-btn,
+.log-btn {
+  display: block;
+  width: 180px;
+  height: 48px;
+  margin: 12px auto;
+  background-color: #fae6b1;
+  border: 2px solid black;
+  border-radius: 6px;
+  color: black;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  box-shadow: 3px 3px 0 black;
+  image-rendering: pixelated;
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.meal-btn:active,
+.log-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 black;
+}
+
+textarea {
+  width: 90%;
+  height: 60px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 6px;
+  box-shadow: 2px 2px 0 black;
+  font-family: 'Minecraftia', monospace;
+  font-size: 12px;
+  color: black;
+  padding: 6px;
+  image-rendering: pixelated;
+  resize: none;
+  outline: none;
+}
+
+.back-btn {
+  width: 14px;
+  height: auto;
+  image-rendering: pixelated;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.exit-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 28px;
+  height: 28px;
+  background-color: #fae6b1;
+  border: 2px solid black;
+  border-radius: 50%;
+  color: black;
+  font-family: 'Minecraftia', monospace;
+  font-size: 18px;
+  line-height: 45px;
+  text-align: center;
+  text-indent: 3px;
+  image-rendering: pixelated;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 black;
+  padding: 0;
+}
+
+@keyframes bounce {
+  0%   { transform: translateX(-50%) scale(1); }
+  30%  { transform: translateX(-50%) scale(1.1); }
+  50%  { transform: translateX(-50%) scale(0.95); }
+  70%  { transform: translateX(-50%) scale(1.05); }
+  100% { transform: translateX(-50%) scale(1); }
+}
+
+.ethan.bounce {
+  animation: bounce 0.4s ease;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.section-title {
+  font-family: 'Minecraftia', monospace;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 12px 0;
+  font-family: 'Minecraftia', monospace;
+  font-size: 12px;
+}
+
+.checkbox-row label {
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 13px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.checkbox-row input[type="checkbox"] {
+  vertical-align: middle;
+  margin-top: -2px;
+}
