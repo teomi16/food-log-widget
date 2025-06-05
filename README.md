@@ -33,7 +33,10 @@ This widget was made to help Ethan develop food awareness and symptom tracking i
 MIT License
 
 ---
+![Built with Tauri](https://img.shields.io/badge/Built_with-Tauri-009485?style=for-the-badge&logo=tauri)
+![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge&logo=windows)
 
+---
 ## 📦 Installation & Usage
 
 ### 🛠️ Requirements
