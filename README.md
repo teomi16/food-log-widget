@@ -24,17 +24,11 @@ Ethan clicks. Ethan logs. No distractions.
 This widget was made to help Ethan develop food awareness and symptom tracking in a super low-effort way. Hopefully, this helps Ethan get to the bottom of his gut issues.
 
 ## 📸 Screenshots
-![frame1](src/frame1.png)
+<img src="src/frame1.png" alt="Ethan Screenshot" width="400"/>
 ![frame2](src/frame2.png)
 ![frame3](src/frame3.png)
 ![frame4](src/frame4.png)
 
-## License
-MIT License
-
----
-![Built with Tauri](https://img.shields.io/badge/Built_with-Tauri-009485?style=for-the-badge&logo=tauri)
-![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge&logo=windows)
 
 ---
 ## 📦 Installation & Usage
